@@ -12,7 +12,7 @@
       .attr('width', 750)
       .attr('height', 500);
     // d3.csv is basically fetch but it can be be passed a csv file as a parameter
-    d3.csv("../data/data.csv")
+    d3.csv("data.csv")
       .then((csvData) => makeBarPlot(csvData));
   }
 
